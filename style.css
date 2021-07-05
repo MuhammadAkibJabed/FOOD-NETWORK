@@ -1,18 +1,21 @@
 /* global css start */
-body{
+body,h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 .flex{
     display: flex;
-    justify-content: space-between;
+    
+}
+.half-width{
+    width: 50%;
 }
 /* global css end */
 
 
 /* navbar start */
-#navbar{
+.navbar{
     background-color: #FFF4EE;
 }
 .nav-heading {
@@ -42,3 +45,35 @@ body{
     
 }
 /* navbar end */
+
+/* FOOD OVERVIEW PART START */
+.food-overview {
+    margin-top: 100px;
+}
+.food-details {
+    margin-left: 100px;
+}
+.food-details p {
+    font-size: 25px;
+    margin-right: 30px;
+    margin-bottom: 45px;
+}
+.fd-heading {
+    color: #fea602;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+.half-width img{
+    width: 70%;
+}
+.menu-button {
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #fea602;
+    font-size: 25px;
+    border-radius: 20px;
+}
+/* FOOD OVERVIEW PART end */
