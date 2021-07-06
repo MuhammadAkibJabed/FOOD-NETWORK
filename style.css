@@ -19,18 +19,19 @@ body,h1,h2,h3,h4,h5,h6{
     background-color: #FFF4EE;
 }
 .nav-heading {
-    color: #9C1A8B;
+    color: #fea602;
     text-align: center;
     font-size: 25px;
     padding-top: 50px;
 }
 .nav-heading h1 {
-    font-weight: 300;
+    font-weight: 600;
+    letter-spacing: 5px;
 }
 
 .nav-menu ul {
     display: flex;
-    margin-left: 235px;
+    margin-left: 215px;
     margin-top: 40px;
     font-size: 26px;
     letter-spacing: 15px;
@@ -42,9 +43,11 @@ body,h1,h2,h3,h4,h5,h6{
 }
 .nav-menu ul li a{
     text-decoration: none;
-    
+    color: #fea602;  
 }
 /* navbar end */
+
+
 
 /* FOOD OVERVIEW PART START */
 .food-overview {
@@ -57,6 +60,9 @@ body,h1,h2,h3,h4,h5,h6{
     font-size: 25px;
     margin-right: 30px;
     margin-bottom: 45px;
+}
+#fh-color {
+    color: #ce1212;
 }
 .fd-heading {
     color: #fea602;
@@ -78,6 +84,7 @@ body,h1,h2,h3,h4,h5,h6{
     color: whitesmoke;
 }
 /* FOOD OVERVIEW PART end */
+
 
 
 
@@ -114,6 +121,10 @@ body,h1,h2,h3,h4,h5,h6{
     color: whitesmoke;
 }
 /* About section end*/
+
+
+
+
 
 /* Recipies section start */
 .recipie {
@@ -160,15 +171,14 @@ body,h1,h2,h3,h4,h5,h6{
 .recipie-details p {
     font-size: 22px;
 }
-
 /* Recipies section end */
 
 
+
+
 /* Download bar section */
-.download-section{
-    
-    text-align: center;
-    
+.download-section{ 
+    text-align: center;  
 }
 #d-heading {
     margin-top: 150px;
@@ -187,5 +197,29 @@ body,h1,h2,h3,h4,h5,h6{
     background-color: #efa00e;
     margin-bottom: 154px;
     border-radius: 10px;
+    color: white;
 }
 /* Download bar section */
+
+
+
+
+/* Footer section start */
+.footer{
+    margin-top: 150px  ;
+    text-align: center;
+    background-color: wheat;
+}
+.f-heading {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 28px;
+}
+#f-colour {
+    color: #f99e02;
+}
+#f-para {
+    font-size: 30px;
+    padding-bottom: 105px;
+}
+/* Footer section end */
