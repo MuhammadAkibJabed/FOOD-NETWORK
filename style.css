@@ -162,3 +162,30 @@ body,h1,h2,h3,h4,h5,h6{
 }
 
 /* Recipies section end */
+
+
+/* Download bar section */
+.download-section{
+    
+    text-align: center;
+    
+}
+#d-heading {
+    margin-top: 150px;
+    margin-bottom: 52px;
+    font-size: 40px;
+    color: #efa00e;
+    letter-spacing: 5px;
+}
+#d-para {
+    font-size: 25px;
+    margin: 0px 310px 30px 310px;
+}
+#d-button {
+    text-decoration: none;
+    padding: 20px;
+    background-color: #efa00e;
+    margin-bottom: 154px;
+    border-radius: 10px;
+}
+/* Download bar section */
