@@ -114,3 +114,51 @@ body,h1,h2,h3,h4,h5,h6{
     color: whitesmoke;
 }
 /* About section end*/
+
+/* Recipies section start */
+.recipie {
+    margin-top: 130px;
+}
+.recipie-header {
+    text-align: center;
+}
+
+.recipie-header p {
+    font-size: 20px;
+    margin: 50px 415px;
+}
+#recipie-heading {
+    font-size: 35px;
+    letter-spacing: 5px;
+    
+    color: #efa00e;
+    margin-bottom: 33px;
+    font-weight: 500;
+}
+.recipies-items {
+    margin: 20px 135px;
+}
+.recipie-details {
+    width: 28%;
+    
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+    text-align: center;
+}
+.box-2 {
+    margin: 0px 80px;
+}
+.recipie-details img {
+    width: 95%;
+    margin-bottom: 15px;
+    border-radius: 22px;
+}
+.recipie-details h1 {
+    font-size: 40px;
+}
+.recipie-details p {
+    font-size: 22px;
+}
+
+/* Recipies section end */
